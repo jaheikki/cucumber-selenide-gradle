@@ -1,0 +1,11 @@
+[ {
+  "uid" : "bbb4523d506a8eff",
+  "name" : "Test wikipedia",
+  "time" : {
+    "start" : 1597755894781,
+    "stop" : 1597755900765,
+    "duration" : 5984
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "src.test.resources.acceptancetests.simple-tests_feature.SimpleTests",
+    "children" : [ {
+      "name" : "Test wikipedia",
+      "uid" : "bbb4523d506a8eff",
+      "parentUid" : "63fc1e011f6e5fcf7144e0596dfe496c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597755894781,
+        "stop" : 1597755900765,
+        "duration" : 5984
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src.test.resources.acceptancetests.simple-tests_feature.SimpleTests"
+  } ],
+  "name" : "packages"
+}
