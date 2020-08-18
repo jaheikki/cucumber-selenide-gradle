@@ -1,6 +1,10 @@
-# Cucumber & Selenide & Allure demo
+# Cucumber & Selenide & Allure demo with GRADLE (and not Maven)
 
 ## Latest news:
+18.8.2020: Cucumber 5 with GRADLE. NOTE: unfortunately the demo UI has become unstable due to some mandatory dockerfile changes so makes this repo less useful in demo sense :( :( :(
+
+Run test: gradle clean build  -Dcucumber.filter.tags="@simple_test" -Dselenide.browser=firefox
+Get test report: gradle allureReport (should see: Report successfully generated to /Users/jari/git/cucumber-selenide-gradle/build/reports/allure-report)
 
 27.9.2019: Replaced log4j with logback + simple DataTable example in feature file (Scenario: Order a product from a catalog)
 
